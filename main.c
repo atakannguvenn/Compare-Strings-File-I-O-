@@ -35,30 +35,22 @@ int main()
                         z++;
                     }
                     if(r<l)
-                    {
                         names[j][z]='\0';
-                    }
                     if(l<r)
-                    {
                         names[j+1][z]='\0';
-                    }
                     goto Plswork;
                 }
                 if (names[j][z]==names[j+1][z])
-                {
                     z++;
-                }
                 if (names[j][z]<names[j+1][z])
-                {
                     goto Plswork;
-                }
             }
             Plswork:;
             z=0;
             j++;
         }
-    j=0;
-    J++;
+		j=0;
+		J++;
     }
     fclose(fp);
     fp=fopen("Sorted Names.txt","w");
@@ -75,5 +67,3 @@ int main()
     printf("\n\nAll finished check your new txt file :)\n\n");
     return 0;
 }
-
-
