@@ -41,9 +41,9 @@ int main()
 					goto Plswork;
                 		}
 				if (names[j][z]==names[j+1][z])
-				    z++;
+				    	z++;
 				if (names[j][z]<names[j+1][z])
-				    goto Plswork;
+				    	goto Plswork;
 			}
 			Plswork:;
 			z=0;
