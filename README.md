@@ -1,2 +1,2 @@
 # Compare-Strings-File-I-O-
-Extended version of Compare Strings using file I/O
+Extended version of String Compare using file I/O
